@@ -12,15 +12,11 @@ function testJs() {
         drive() {
             console.log("Teraz prowadzę " + this.brand);
         }
-
-
-
-
     }
 
     let firstCar = new car("Volvo", "S60", 2010, "Red");
 
 
 }
-
+ //git proba
 
