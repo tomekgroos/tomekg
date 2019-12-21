@@ -14,6 +14,8 @@ function whileSum() {
         console.log(sum);
     }
 
+    // drugi komentarz
+
 // test git x 2
 
 }
