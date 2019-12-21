@@ -14,6 +14,6 @@ function whileSum() {
         console.log(sum);
     }
 
-
+// test git x 2
 
 }
