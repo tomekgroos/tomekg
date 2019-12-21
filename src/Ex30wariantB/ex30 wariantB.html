@@ -9,14 +9,15 @@
 
 </head>
 
-<body onload="init()">
+<body onload="initRealTime()">
 
 <p>Zegar Wystartowal :)</p>
 
 <p id = "demo"></p>
 
-<button onclick="clearInterval(tmr)">Zatrzymaj</button> // zatrzymanie przypisane do zmiennej tmr
-<button onclick="tmr = setInterval(myTimer,1000)">Start</button> // start od momentu zatrzymania (zmienna tmr)
+<button onclick="clearInterval(tmr)">Zatrzymaj</button> <!-- zatrzymanie przypisane do zmiennej tmr -->
+<button onclick="tmr = setInterval(myTimer, 1000)">Start</button> <!-- start od momentu zatrzymania (zmienna tmr) -->
+<button onclick="initRealTime(); tmr = setInterval(myTimer,1000)">Start real time</button> <!-- start czasu rzeczywistego -->
 
 
 
