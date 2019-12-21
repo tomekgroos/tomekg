@@ -7,7 +7,7 @@ function testScreenObject() {
 
        document.getElementById("width").innerHTML =  "Szerokosc: " + screen.width;
 
-       document.getElementById("pxdepth").innerHTML =  "Glebia koloru: " + screen.colorDepth;
+       document.getElementById("cdepth").innerHTML =  "Glebia koloru: " + screen.colorDepth;
 
 
 
