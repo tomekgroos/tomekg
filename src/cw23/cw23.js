@@ -9,6 +9,10 @@ function testJs() {
 
         }
 
+        displayBrandAndModel(){
+            console.log("Marka: " + this.brand + "Model: " + this.model);
+        }
+
         drive() {
             console.log("Teraz prowadzę " + this.brand);
         }
@@ -16,7 +20,6 @@ function testJs() {
 
     let firstCar = new car("Volvo", "S60", 2010, "Red");
 
-
+        console.log(firstCar);
 }
- //git proba
 
