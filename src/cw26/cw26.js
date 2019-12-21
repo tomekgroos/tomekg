@@ -1,10 +1,5 @@
-function newDoc() {
+function showAlert() {
 
-    window.open("https://www.altkomakademia.pl/","_blank");
-
+    alert("To jest alert!");
 }
 
-function goBack() {
-
-    window.history.forward()
-}

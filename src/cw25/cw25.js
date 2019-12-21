@@ -4,7 +4,13 @@ function newDoc() {
 
 }
 
-function goBack() {
+function goForward() {
 
     window.history.forward()
+
+}
+
+function goBack() {
+
+    window.history.back()
 }
