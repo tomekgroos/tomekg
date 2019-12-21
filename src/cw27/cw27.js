@@ -1,6 +1,5 @@
 function toUpperCase() {
 
-    var x;
 
-    document.getElementById("nameInput").value = input.toUpperCase()
+    document.getElementById("nameInput").value = document.getElementById("nameInput").value.toUpperCase();
 }
