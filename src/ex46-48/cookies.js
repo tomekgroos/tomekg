@@ -43,3 +43,4 @@ function checkCookie() {
 
 }
 
+// cookies
