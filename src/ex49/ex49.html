@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function clickCounter() {
+
+            if(typeof(Storage) !== "undefined"){
+                if(localStorage.clickcount){
+                    localStorage.clickcount = Number(localStorage.clickcount)+1;
+                } else{
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = "Kliknieto " + localStorage.clickcount + " razy.";
+            } else {
+                document.getElementById("result").innerHTML = "Niestety webStorage nie jest obslugiwany";
+            }
+
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+<p><button onclick="clickCounter()" type="button">Nacisnij!</button> </p>
+<div id="result"></div>
+
+</body>
+</html>
+
