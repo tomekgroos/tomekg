@@ -1,8 +1,154 @@
-.main-menu{
-        max-width: 100%;
+body{
+        font-family: Lato;
+        background-image: linear-gradient(to right,#0f2027, #203a43, #2c5364);
 
+}
+
+p{
+
+}
+
+.wrapper{
+        max-width: 1200px;
+        margin: auto;
+}
+
+/*header*/
+
+.main-menu-container{
+        max-width: 100%;
+        background-color:chocolate;
+        border-bottom: 2px solid white;
+        
 }
 
 .main-menu-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+.logo{
+        display: block;
+        width: 400px;
+        height: 140px;   
+       
+}
+
+.logo img {
+        width: 200px;
+        height: 130px;
+        
+}
+
+.menu{
+        padding-left: 0px;
+        padding-right: 0px;
+}
+
+.menubar ul{
+        display: flex;
+        list-style-type: none;
+        padding-right: 0px;
+        padding-left: 0px;
 
 }
+
+.menubar li{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-size: 25px;
+        color:white;
+        border-right: 1px solid white;
+}
+
+.menubar li:first-child{
+        border-left: 1px solid white;
+}
+
+/*tytul*/
+
+.title-container{
+        width: 100%;
+        
+}
+
+.title-wrapper{
+        max-width: 1200px;
+        margin: auto;
+        border-bottom: 2px solid white;
+        
+}
+
+.title{
+        text-align: left;
+        color: white;
+        font-size: 26px;
+}
+
+.content-container{
+        width: 100%;
+        border-bottom: 2px solid white;
+}
+
+.content-wrapper{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+}
+
+.content{
+
+        color:white;
+        max-width: 66.66%;
+        padding-right: 30px;
+}
+
+.content header{
+        color: white;
+        text-align: center;
+
+}
+
+.content img {
+
+        max-width: 100%;
+        height: auto;
+        
+}
+
+.sidebar{
+        padding-left: 30px;
+        max-width: 33.33%;
+        background-color: chocolate;
+        border: 2px solid white;
+        
+        
+}
+
+.sidebar-in{
+
+        padding-right: 10px;
+        text-align: left;
+        
+}
+
+.sidebar-in h2{
+
+        font-weight: bold;
+        
+}
+
+.sidebar-in h3{
+
+       font-weight: bold;
+        
+}
+
+
+
