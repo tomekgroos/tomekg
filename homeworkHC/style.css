@@ -1,0 +1,348 @@
+body{
+        font-family: Lato;
+        background-image: linear-gradient(to right,#0f2027, #203a43, #2c5364);
+
+}
+
+
+.wrapper{
+        max-width: 1200px;
+        margin: auto;
+}
+
+/*header*/
+
+.main-menu-container{
+        max-width: 100%;
+        background-color:chocolate;
+        border-bottom: 2px solid white;
+        
+}
+
+.main-menu-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+.logo{
+        display: block;
+        width: 400px;
+        height: 140px;   
+       
+}
+
+.logo img {
+        width: 200px;
+        height: 130px;
+        
+}
+
+
+.menubar ul{
+
+        display: flex;
+        padding-right: 0px;
+        padding-left: 0px;
+        list-style-type: none;
+       
+
+}
+
+.menubar a{
+        text-decoration: none;
+        color: #0f2027;
+}
+
+.menubar li{
+        
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-size: 25px;
+        border-right: 1px solid #0f2027;
+        color: #0f2027;
+        
+        
+}
+
+.menubar li:first-child{
+        border-left: 1px solid #0f2027;
+}
+
+/*tytul*/
+
+.title-container{
+        max-width: 100%;
+        
+}
+
+.title-wrapper{
+        max-width: 1200px;
+        margin: auto;
+        border-bottom: 2px solid white;
+        
+}
+
+.title{
+        text-align: left;
+        color: white;
+        font-size: 26px;
+}
+
+/*glowny kontent*/
+
+.content-container{
+        max-width: 100%;
+        
+}
+
+.content-wrapper{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+}
+
+.content{
+
+        color:white;
+        max-width: 66.66%;
+        padding-right: 30px;
+}
+
+.content header{
+        color: white;
+        text-align: left;
+        border-bottom: 1px solid white; 
+
+}
+
+.content img {
+
+        max-width: 100%;
+        height: auto;
+        
+}
+
+/*glowny kontent - panel boczny*/
+
+.sidebar{
+        padding-left: 30px;
+        max-width: 33.33%;
+        background-color: chocolate;
+        border: 1px solid #2c5364;
+        
+        
+}
+
+.sidebar-in{
+
+        padding-right: 10px;
+        text-align: left;
+        color: #0f2027;
+        
+}
+
+.sidebar-in h2{
+
+        font-weight: bold;
+        color: #0f2027;
+        
+}
+
+.sidebar-in h3{
+
+       font-weight: bold;
+       color: #0f2027;
+        
+}
+
+/*Artykuły*/
+
+.articles-container{
+
+        max-width: 100%;
+        margin: auto;
+        background-color: chocolate;
+        padding-top: 30px;
+        padding-bottom: 90px;
+      
+}
+.articles-wrapper{
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        color: #0f2027;
+
+} 
+
+.article-title{
+
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #2c5364;
+        
+}
+
+.article-title h1{
+
+        font-weight: 900;       
+}
+            
+.box{
+        width: 25%;
+        text-align: center;
+        padding: 20px;
+       
+     
+}
+
+.box-in{
+        border: 1px solid #203a43;
+        color: white;
+        background-color: #203a43;
+}
+
+.box-in img{
+        width: 100%;
+        
+}
+
+/*O mnie*/
+
+.about-container{
+
+        max-width: 100%;
+        margin: auto;
+        background-image: linear-gradient(to right,#0f2027, #203a43, #2c5364);
+        padding-bottom: 70px;
+
+}
+  
+.about-wrapper{
+
+      display: flex;
+      flex-wrap: wrap;
+        
+        
+}
+
+.about-in-image{
+
+        width: 50%;
+
+}
+
+.about-in-image img{
+        padding-top: 70px;
+        width: 100%;
+}
+
+
+.about-in-content{
+        padding-left: 40px;
+        padding-top: 70px;
+        color: white;
+        width: 50%;
+}
+
+footer{
+      
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: large;
+        color:white;
+        background-image: linear-gradient(to right, chocolate,#0f2027, #203a43, #2c5364);
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1200px ){
+
+        .wrapper {
+                max-width: 680px;
+            }
+        
+            .box {
+                width: 50%;
+            }    
+        
+            /* articles and page single */
+        
+            .content {
+                max-width: 100%;
+            }
+        
+            .sidebar {
+                max-width: 100%;
+            }
+        
+            /* about */
+            
+            .about-in-image {
+                width: 100%;
+                padding-top: 40px;
+            }
+            
+            .about-in-content {
+                width: 100%;     
+            }   
+        }
+        
+        @media screen and (max-width: 680px) {
+    
+                .main-menu-wrapper {
+                    justify-content: center;
+                }
+                
+                .logo {
+                    width: 100%;
+                }
+            
+                .menubar {
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                }
+                
+                .menubar ul {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                
+                .menubar li{
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    border-left: 0px solid white;
+                    border-right: 0px solid white; 
+                }
+                
+                .menubar li:first-child {
+                    border-left: 0px solid white; 
+                }
+            }
+            
+            
+            @media screen and (max-width: 500px) {
+                
+                /* wrappers */
+            
+                .wrapper {
+                    max-width: 440px;
+                }
+            
+                /* blog */
+            
+                .box {
+                    width: 100%;
+                }
+
+        }
