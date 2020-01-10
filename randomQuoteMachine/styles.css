@@ -40,8 +40,8 @@ body{
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
+    justify-content: space-evenly;
+    padding: 20px 20px;
 }
 
 .button{
@@ -63,6 +63,7 @@ body{
 
 .new-quote{
     background-color: #4A2B0F;
+    
 }
 
 @media screen and (max-width: 600px) {
